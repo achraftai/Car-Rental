@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Car rental database</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/style.css">
+	</head>
+    
+	<body>
+        <div class="header">
+            <h1>New Booking</h1>
+        </div>
+        
+        <div class="form">
+                <form action="/form2" method="post">
+                        <!-- <label for="b_id">Booking ID:</label><br>
+                        <input type="text" id="b_id" name="b_id"><br> -->
+                        <div class="row">
+                            <label for="start">Start date:</label>
+                            <input type="date" id="start" name="start">
+                        </div>
+                        <div class="row">
+                            <label for="end">End date:</label>
+                            <input type="date" id="end" name="end">
+                        </div>
+                        
+                        <div class="row">
+                            <label for="amount">Amount:</label>
+                            <input type="float" id="amount" name="amount">
+                        </div>
+                        
+                        <div class="row">
+                            <label for="vin">Vin:</label>
+                            <input type="text" id="vin" name="vin">
+                        </div>
+                       
+                        <div class="row">
+                            <label for="license">License number:</label>
+                            <input type="int" id="license" name="license">
+                        </div>
+                        
+
+                        <input class="form_btn" type="submit" value="Submit">
+                        
+
+                </form>
+        </div>
+	</body>
+	
+</html>

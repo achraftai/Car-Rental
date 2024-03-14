@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Car rental database</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/style.css">
+	</head>
+    
+	<body>
+        <div class="header">
+            <h1>Vehicle</h1>
+        </div>
+        <div class="form">
+                <form action="/form3" method="post">
+                    <div class="row">
+                        <label for="vin">Vin:</label>
+                        <input type="text" id="vin" name="vin">
+                    </div>
+                    <div class="row">
+                        <label for="type">Type:</label>
+                        <input type="text" id="type" name="type">
+                    </div>
+                    <div class="row">
+                        <label for="make">Make:</label>
+                        <input type="text" id="make" name="make">
+                    </div>
+                    <div class="row">
+                        <label for="model">Model:</label>
+                        <input type="text" id="model" name="model">
+                    </div>
+                    <div class="row">    
+                        <label for="year">Year:</label>
+                        <input type="int" id="year" name="year">
+                    </div>
+
+
+                        <input class="form_btn" type="submit" value="Submit">
+                        
+
+                </form>
+        </div>
+	</body>
+	
+</html>
